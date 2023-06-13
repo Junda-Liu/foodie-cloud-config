@@ -1,0 +1,10 @@
+#数据库连接串
+mariadb: 
+  url: 'jdbc:postgresql://localhost:32768/postgres'
+  password: 'postgrespw'
+#功能开关-开启/关闭注册功能
+userservice:
+    registration:
+       disabled: true
+
+#actuator
